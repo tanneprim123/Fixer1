@@ -1,0 +1,250 @@
+/********  HEADER  *********/
+
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background-color: #FFFDEE;
+
+}
+#chk1{
+    display: none;
+}
+i{
+    color: #000000;
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color: #3e78b2;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+
+.search-box input{
+    width: 90%;
+    height: 60px;
+    border: none;
+    background-color: #b8b6ad;
+    border-radius: 30px;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 1px;
+}
+
+.search-box button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    transform: scale(0.9);
+    background: white;
+}
+
+
+/********    *********/
+
+
+/********   NAV BAR *********/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gabarito', cursive;
+}
+
+ul{
+    list-style: none;
+    background-color: #3e78b2;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+
+
+}
+
+ul li a{
+    display: block;
+    padding: 50px 25px;
+    color: #FFFDEE;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul li ul.Dropdown li{
+    display: block;
+}
+
+ul li ul.Dropdown{
+    width: 100%;
+    background-color: #366799;
+    position: absolute;
+    z-index: 9999 ;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: #3e78b2;
+}
+
+ul li:hover ul.Dropdown{
+    display: block;
+}
+
+Body{
+   background-color: #F8F9F0;
+
+    .reparertitle {
+        font-size: 60px;
+        color: #AAAE8E;
+        text-align: center;
+        padding-top: 120px;
+    }
+    .reparertitle2 {
+        font-size: 40px;
+        color: #AAAE8E;
+        text-align: center;
+
+    }
+.hvorfor {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+    #arc2{
+        display: flex;
+        justify-content: center;
+    }
+.iframe-container{
+    position: absolute;
+    width: 850px;
+    height: 980px;
+    padding-bottom: 56.25%;
+}
+    .fluff{
+        padding-top: 750px;
+    }
+
+    .landphoto{
+margin-top: 30px;
+    }
+  }
+/********    *********/
+
+
+    /****** FEET  *****/
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    body{
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1170px;
+        margin:auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ul2{
+        list-style: none;
+        background-color: #1a3857;
+
+    }
+    .footer{
+        background-color: #1a3857;
+        padding: 70px 0;
+    }
+    .footer-col{
+        width: 25%;
+        padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: #FFFDEE;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color: orangered;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #FFFDEE;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+        color: #FFFDEE;
+        padding-left: 8px;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: #FFFDEE;
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #FFFDEE;
+        transition: all 0.5s ease;
+    }
+    .footer-col .social-links a:hover{
+        color: #FFFDEE;
+        background-color: #FFFDEE;
+    }
+
+    /*responsive*/
+    @media(max-width: 767px){
+        .footer-col{
+            width: 50%;
+            margin-bottom: 30px;
+        }
+    }
+    @media(max-width: 574px){
+        .footer-col{
+            width: 100%;
+        }
+    }
+/******   *****/
